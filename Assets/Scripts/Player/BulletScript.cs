@@ -39,16 +39,16 @@ public class BulletScript : MonoBehaviour
     /// </summary>
     /// <param name="collision">collision info</param>
     private void OnCollisionEnter2D(Collision2D collision)
-    {   
-        if (collision.gameObject.CompareTag("monster"))
-        {
-            Instantiate<GameObject>(prefabExplosion,
-                transform.position, Quaternion.identity);
-           
-            Destroy(gameObject);
+    {
+        //if (collision.gameObject.CompareTag("monster"))
+        //{
+        //    Instantiate<GameObject>(prefabExplosion,
+        //        transform.position, Quaternion.identity);
 
-        }
-        Destroy(gameObject);
+        //    Destroy(gameObject);
+
+        //}
+        //Destroy(gameObject);
     }
     /// <summary>
     /// Destroy when leave game

@@ -11,6 +11,7 @@ public class MainMenuController : MonoBehaviour
     public void Playgame()
     {
         SceneManager.LoadScene("LevelSelect");
+        Debug.Log("OK");
     }
     public void Quitgame()
     {
