@@ -15,10 +15,10 @@ public class ItemCollector : MonoBehaviour
         {
             SoundManager.instance.PlaySound(collectionSoundEffect);
             Destroy(collision.gameObject);
-            
-            //HUD hud = GameObject.FindGameObjectWithTag("HUD").GetComponent<HUD>();
-            //hud.AddCoin(CoinPoints);
-           
-        } 
+
+            HUD hud = GameObject.FindGameObjectWithTag("HUD").GetComponent<HUD>();
+            hud.AddCoin(CoinPoints);
+
+        }
     }
 }

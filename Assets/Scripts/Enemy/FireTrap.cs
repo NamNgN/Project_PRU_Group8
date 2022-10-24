@@ -17,7 +17,7 @@ public class FireTrap : MonoBehaviour
     private Animator anim;
     private SpriteRenderer spriteRenderer;
 
-    //private Health playerHealth;
+    private Health playerHealth;
 
     private bool triggerd; // when traps get triggered
     private bool active; // when traps is active and hurt player
@@ -41,7 +41,7 @@ public class FireTrap : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            //playerHealth = collision.GetComponent<Health>();
+            playerHealth = collision.GetComponent<Health>();
 
             if (!triggerd)
             {//trigger fire trap
@@ -50,7 +50,7 @@ public class FireTrap : MonoBehaviour
             }
             if (active)
             {
-                //collision.GetComponent<Health>().TakeDamage(damage);
+                collision.GetComponent<Health>().TakeDamage(damage);
             }
         }
     }
