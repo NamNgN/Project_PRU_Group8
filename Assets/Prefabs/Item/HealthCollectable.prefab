@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6998545581830538384}
   - component: {fileID: 6998545581830538390}
+  - component: {fileID: 6998545581830538385}
   - component: {fileID: 6998545581830538391}
-  - component: {fileID: 5258773393581941660}
   m_Layer: 0
   m_Name: HealthCollectable
   m_TagString: Untagged
@@ -73,19 +73,33 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1304411015
-  m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 194be03616a423045911575bfb44d4a3, type: 3}
+  m_SortingLayer: 2
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 6ee7b1f601b74c8428b216a268557b7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.28, y: 1.28}
+  m_Size: {x: 0.13, y: 0.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6998545581830538385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6998545581830538387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463196d1cdcc21340b50c65232a65949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthValue: 1
+  HeartSoundEffect: {fileID: 8300000, guid: 5039414d94a6e4e70a5ab9e8833e992a, type: 3}
 --- !u!61 &6998545581830538391
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -104,7 +118,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.28, y: 1.28}
-    newSize: {x: 1.28, y: 1.28}
+    newSize: {x: 0.13, y: 0.13}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -112,17 +126,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28}
   m_EdgeRadius: 0
---- !u!114 &5258773393581941660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6998545581830538387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 463196d1cdcc21340b50c65232a65949, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthValue: 1
-  HeartSoundEffect: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}

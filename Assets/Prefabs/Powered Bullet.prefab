@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1296851888621601987}
   - component: {fileID: 1065381418799570067}
   - component: {fileID: -971486761692333242}
+  - component: {fileID: 8606347504489779965}
   m_Layer: 0
   m_Name: Powered Bullet
   m_TagString: bullet
@@ -29,11 +30,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560860228665936397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.167, y: -0.6, z: 0}
+  m_LocalPosition: {x: -0.1718092, y: -0.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6987181722925042679}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -75,15 +75,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -344188525
+  m_SortingLayerID: 1304411015
   m_SortingLayer: 2
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 774026809, guid: 841d48a9c89d89d48924b34647b05283, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 646a8d42b2a25614398c352e1ed32c03, type: 3}
   m_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.51, y: 1.08}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -123,9 +123,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.17803037}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32196963
+  m_Radius: 0.5
 --- !u!114 &1065381418799570067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,13 +135,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 560860228665936397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e01cd3f5a7d4cf4c89bb8feef70b964, type: 3}
+  m_Script: {fileID: 11500000, guid: be6cbaea82f89284486cf07d0ed73eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   rb: {fileID: 5506029071283629706}
-  prefabExplosion: {fileID: 0}
-  damage: 50
+  damage: 100
 --- !u!61 &-971486761692333242
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -152,85 +151,39 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.1680005}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0.26}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.51, y: 1.08}
-    newSize: {x: 2.51, y: 1.08}
+    oldSize: {x: 2.51, y: 1.44}
+    newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.66399896}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1001 &7797923957011489467
-PrefabInstance:
+--- !u!95 &8606347504489779965
+Animator:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 560860228665936399}
-    m_Modifications:
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.1718092
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4015556630916763063, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_Name
-      value: explosion_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155769880539232509, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
---- !u!4 &6987181722925042679 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 918943540214573388, guid: 281f91fbb00fb9440b654917efd07741, type: 3}
-  m_PrefabInstance: {fileID: 7797923957011489467}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560860228665936397}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b80066287851297469a4c88adf158e18, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

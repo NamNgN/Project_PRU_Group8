@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 3030eef05ea202549a2d215e8d7903c7
+  productGUID: 58b6830de4a81cd449a59540f3f3ad52
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Project_PRU_Group8
+  productName: Anbatukam
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -236,14 +236,14 @@ PlayerSettings:
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
   clonedFromGUID: 10ad67313f4034357812315f3c407484
-  templatePackageId: com.unity.template.2d@6.1.1
+  templatePackageId: com.unity.template.2d@6.1.0
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0
   useCustomBaseGradleTemplate: 0
-  useCustomGradlePropertiesTemplate: 0
+  useCustomGradlePropertiesTemplate: 1
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 1
   AndroidTargetDevices: 0
@@ -271,6 +271,103 @@ PlayerSettings:
   AndroidAppBundleSizeToValidate: 150
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons:
+  - m_BuildTarget: iPhone
+    m_Icons:
+    - m_Textures: []
+      m_Width: 180
+      m_Height: 180
+      m_Kind: 0
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 120
+      m_Height: 120
+      m_Kind: 0
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 167
+      m_Height: 167
+      m_Kind: 0
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 152
+      m_Height: 152
+      m_Kind: 0
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 76
+      m_Height: 76
+      m_Kind: 0
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 120
+      m_Height: 120
+      m_Kind: 3
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 80
+      m_Height: 80
+      m_Kind: 3
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 80
+      m_Height: 80
+      m_Kind: 3
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 40
+      m_Height: 40
+      m_Kind: 3
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 87
+      m_Height: 87
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 58
+      m_Height: 58
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 29
+      m_Height: 29
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 58
+      m_Height: 58
+      m_Kind: 1
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 29
+      m_Height: 29
+      m_Kind: 1
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 60
+      m_Height: 60
+      m_Kind: 2
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 40
+      m_Height: 40
+      m_Kind: 2
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 40
+      m_Height: 40
+      m_Kind: 2
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 20
+      m_Height: 20
+      m_Kind: 2
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 1024
+      m_Height: 1024
+      m_Kind: 4
+      m_SubKind: App Store
   - m_BuildTarget: Android
     m_Icons:
     - m_Textures: []
@@ -364,41 +461,9 @@ PlayerSettings:
       m_Kind: 0
       m_SubKind: 
   m_BuildTargetBatching: []
-  m_BuildTargetGraphicsJobs:
-  - m_BuildTarget: MacStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: Switch
-    m_GraphicsJobs: 0
-  - m_BuildTarget: MetroSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: AppleTVSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: BJMSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: LinuxStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: PS4Player
-    m_GraphicsJobs: 0
-  - m_BuildTarget: iOSSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: WindowsStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: XboxOnePlayer
-    m_GraphicsJobs: 0
-  - m_BuildTarget: LuminSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: AndroidPlayer
-    m_GraphicsJobs: 0
-  - m_BuildTarget: WebGLSupport
-    m_GraphicsJobs: 0
+  m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
-  m_BuildTargetGraphicsAPIs:
-  - m_BuildTarget: AndroidPlayer
-    m_APIs: 150000000b000000
-    m_Automatic: 1
-  - m_BuildTarget: iOSSupport
-    m_APIs: 10000000
-    m_Automatic: 1
+  m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -411,9 +476,7 @@ PlayerSettings:
   m_BuildTargetGroupLightmapEncodingQuality: []
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetNormalMapEncoding: []
-  m_BuildTargetDefaultTextureCompressionFormat:
-  - m_BuildTarget: Android
-    m_Format: 3
+  m_BuildTargetDefaultTextureCompressionFormat: []
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -606,7 +669,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: bi9UOuSpM2Tlh01vOzwvSikHFswuzleh
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -662,10 +725,10 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    Android: CROSS_PLATFORM_INPUT
+    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     Standalone: CROSS_PLATFORM_INPUT
-    Windows Store Apps: 
-    iPhone: CROSS_PLATFORM_INPUT
+    Windows Store Apps: MOBILE_INPUT
+    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -684,14 +747,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 2D_BuiltInRenderer
+  metroPackageName: main
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 2D_BuiltInRenderer
+  metroApplicationDescription: main
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -752,14 +815,14 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: 
   organizationId: 
   cloudEnabled: 0
-  legacyClampBlendShapeWeights: 0
+  legacyClampBlendShapeWeights: 1
   playerDataPath: 
   forceSRGBBlit: 1
   virtualTexturingSupportEnabled: 0

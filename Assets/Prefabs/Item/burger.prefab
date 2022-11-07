@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6371751072382783648}
   - component: {fileID: 1309608503956669056}
   - component: {fileID: 8274587963799439952}
+  - component: {fileID: 1858981589617924658}
   m_Layer: 0
   m_Name: burger
   m_TagString: power
@@ -72,9 +73,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1304411015
-  m_SortingLayer: 0
+  m_SortingLayer: 2
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 5db8c75f085b1a44b8aee00dcfacf669, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 511afc34a96ae46429c2d033debdef2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,3 +112,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1858981589617924658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038143463449846490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c913dcd3644a4c4e8d32a99778c9d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+  powerUpSoundEffect: {fileID: 8300000, guid: 5039414d94a6e4e70a5ab9e8833e992a, type: 3}

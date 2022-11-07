@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -462,9 +462,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Anbatukamtra
-
-'
+  m_Text: Ambatukamtra
 --- !u!222 &690590237
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -619,11 +617,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a4a6f0d68198c364ea738fdd6a163a04, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6470d75bc1569b241a55f965bc505693, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.777
+  m_Volume: 0.508
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -729,7 +727,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 783010575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac3ffc794d7c10142b7a9a3ee291e4e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 4fb93a68d023e75408cfc8dbf2562784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1003450205
@@ -783,7 +781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -803,7 +801,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Anbatukamtra
+  m_Text: Ambatukamtra
 --- !u!222 &1003450208
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -863,7 +861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -871,12 +869,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: 34b3181f550103d4498b26eb52996800, type: 3}
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 300
+    m_MaxSize: 70
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1027,7 +1025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1035,11 +1033,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: 34b3181f550103d4498b26eb52996800, type: 3}
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 7
     m_MaxSize: 70
     m_Alignment: 4
     m_AlignByGeometry: 0
