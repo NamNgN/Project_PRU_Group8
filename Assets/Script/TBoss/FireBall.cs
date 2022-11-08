@@ -20,7 +20,7 @@ public class FireBall : MonoBehaviour
 		if (col.gameObject.name.Equals("Player"))
 		{
 			Debug.Log("Hit!");
-			col.GetComponent<Health>().TakeDamage(1);
+			col.GetComponent<Health>().TakeDamage(2);
 
 		}
 	}
